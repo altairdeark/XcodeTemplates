@@ -10,6 +10,6 @@ final public class ___VARIABLE_productName:identifier___ServiceProviderImpl {
     }
 }
 
-extension ___VARIABLE_productName:identifier___ServiceProvider {
+extension ___VARIABLE_productName:identifier___ServiceProviderImpl: ___VARIABLE_productName:identifier___ServiceProvider {
 
 }

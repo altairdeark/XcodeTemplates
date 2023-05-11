@@ -14,10 +14,10 @@ final public class ___VARIABLE_productName:identifier___Router {
     }
 }
 
-extension ___VARIABLE_productName:identifier___InternalRouter {
+extension ___VARIABLE_productName:identifier___Router: ___VARIABLE_productName:identifier___InternalRouter {
 
 }
 
-extension ___VARIABLE_productName:identifier___PublicRouter {
+extension ___VARIABLE_productName:identifier___Router: ___VARIABLE_productName:identifier___PublicRouter {
 
 }
