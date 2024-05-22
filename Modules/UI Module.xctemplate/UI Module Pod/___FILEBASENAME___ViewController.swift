@@ -43,6 +43,7 @@ extension ___VARIABLE_productName:identifier___ViewController {
         
         _ = presenter.rx_props
             .take(until: self.rx.deallocating)
+            .observe(on: MainScheduler.asyncInstance)
             .bind { [weak self] props in
                 holdRef(presenter)
                 self?.props = props
